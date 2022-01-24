@@ -22,7 +22,7 @@ export function serialise(x) {
 function map_pair(f, x) {
     const xs = []
     for (let i = 0; i < x.length; i += 2)
-        xs.push(f(x[0], x[1]))
+        xs.push(f(x[i], x[i+1]))
     return xs
 }
 
