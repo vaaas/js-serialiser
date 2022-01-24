@@ -1,4 +1,16 @@
 {
     "name": "js-serialiser",
-    "type": "module"
+    "type": "module",
+    "version": "1.0.0",
+    "description": "convert JSON-encoded S-expressions to Javascript",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Vasileios Pasialiokis",
+    "license": "AGPL-3.0-or-later",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vaaas/js-serialiser.git"
+    }
 }
